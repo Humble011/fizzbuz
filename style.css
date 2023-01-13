@@ -1,0 +1,49 @@
+body {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+form {
+    padding: 10px;
+}
+label, button {
+    margin: 10px;
+}
+
+input {
+    border: 2px solid gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 6px 25px;
+    background-color: rgb(52, 160, 254);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform .2s;
+    box-shadow: 2px 2px 4px gray;
+}
+
+button:hover {
+    background-color: rgb(77, 176, 80);
+    color: white; 
+    cursor: pointer; 
+    box-shadow: 4px 4px 8px gray;
+}
+button:active {
+    background-color: rgb(62, 142, 65);
+    transform: translateY(2px);
+}
+
+#result {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
